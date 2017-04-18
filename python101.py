@@ -101,16 +101,16 @@
 # 		print "You guessed the number!";
 # 		not_guessed = False
 
-secret_number = 5
-not_guessed = True
-while not_guessed:
-	guess_a_number = raw_input("""I'm thinking of a number between 1 and 10.
-What's the number?""")
-	if (int(guess_a_number) == secret_number):
-		print "Yes! You win!";
-		not_guessed = False
-	else:
-		print "Nope. Guess again."
+# secret_number = 5
+# not_guessed = True
+# while not_guessed:
+# 	guess_a_number = raw_input("""I'm thinking of a number between 1 and 10.
+# What's the number?""")
+# 	if (int(guess_a_number) == secret_number):
+# 		print "Yes! You win!";
+# 		not_guessed = False
+# 	else:
+# 		print "Nope. Guess again."
 
 # secret_number = 5
 # not_guessed = True
@@ -125,19 +125,19 @@ What's the number?""")
 # 	if (int(guess_a_number) > secret_number):
 # 		print guess_a_number + " is too high! Guess again.";
 
-# import random
-# random_number =random.randint(1,10)
-# not_guessed = True
-# while not_guessed:
-# 	guess_a_number = raw_input("""I'm thinking of a number between 1 and 10.
-# What's the number?""")
-# 	if (int(guess_a_number) == random_number):
-# 		print "Yes! You win!"
-# 		not_guessed = False
-# 	if (int(guess_a_number) < random_number):
-# 		print guess_a_number + " is too low! Guess again.";
-# 	if (int(guess_a_number) > random_number):
-# 		print guess_a_number + " is too high! Guess again.";
+import random
+random_number =random.randint(1,10)
+not_guessed = True
+while not_guessed:
+	guess_a_number = raw_input("""I'm thinking of a number between 1 and 10.
+What's the number?""")
+	if (int(guess_a_number) == random_number):
+		print "Yes! You win!"
+		not_guessed = False
+	if (int(guess_a_number) < random_number):
+		print guess_a_number + " is too low! Guess again.";
+	if (int(guess_a_number) > random_number):
+		print guess_a_number + " is too high! Guess again.";
 
 
 
