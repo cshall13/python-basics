@@ -70,20 +70,20 @@
 # print type(the_lie)
 
 # Raw Input
-first_name = raw_input("First Name: ")
-last_name = raw_input("Last Name: ")
+# first_name = raw_input("First Name: ")
+# last_name = raw_input("Last Name: ")
 
 # Conditionals
 # 1 = means you want to assign the thing on the left to the thing on the right 
 # 2 = means you want to compare whats on the left with whats on the right 
 
-if(first_name == last_name):
-	print "Your first name is the same as your last name?"
+# if(first_name == last_name):
+# 	print "Your first name is the same as your last name?"
 
 age = raw_input("How old are you?")
 age_as_int = int(age)
 # print type(age)
-if(age >= 21):
+if(age_as_int >= 21):
 	print "You can buy beer"
 
 
