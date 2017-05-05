@@ -294,42 +294,88 @@ students = [
 
 # say_hello()
 
-def say_hello_with_name(name):
-	print ("Hello, "+ name)
+# def say_hello_with_name(name):
+# 	print ("Hello, "+ name)
 
-# say_hello_with_name() #this will fail 
-# say_hello_with_name(Rob, Chad) #this will also fail
-say_hello_with_name("Shane")
+# # say_hello_with_name() #this will fail 
+# # say_hello_with_name(Rob, Chad) #this will also fail
+# say_hello_with_name("Shane")
 
-def say_hello_with_default(name, in_class = "Yes"):
-	print ("Hello, "+ name)
-	print "Is student in class? " + in_class 
+# def say_hello_with_default(name, in_class = "Yes"):
+# 	print ("Hello, "+ name)
+# 	print "Is student in class? " + in_class 
 
-say_hello_with_default("Carla")
-say_hello_with_default("Max", "No")
+# say_hello_with_default("Carla")
+# say_hello_with_default("Max", "No")
 
-# Functions always return something
-def return_user_name(name):
-	return name
-print return_user_name("Shane")
+# # Functions always return something
+# def return_user_name(name):
+# 	return name
+# print return_user_name("Shane")
 
-def make_uppercase(string):
-	return string.upper()
+# def make_uppercase(string):
+# 	return string.upper()
 
-normalized_string = make_uppercase("Im A wIlD ANd craZY Guy")
-print normalized_string
+# normalized_string = make_uppercase("Im A wIlD ANd craZY Guy")
+# print normalized_string
 
+
+# Lists are awesome! But it's changeable. What if you
+# wnated something that wasn't changeable?
+# a tuple is the same in all ways as a list, except:
+# 1. It's values cannot be changed
+# 2. It uses () instead of []
 		
+# a_tuple_test = (1,5,8)
+# print a_tuple_test[1]
+# Test the tuple...
+# print a_tuple_test[1] = 6
 
+# Dictionaries
+# Dictionaries are very simple objects.
+# Operate with a "key-value pair"
+# name = "Rob"
+# gender = "male"
+# height = "tall"
+# print(name)
 
+# person = {
+# 	"name": "Rob",
+# 	"gender": "male",
+# 	"height": "tall"
+# }
 
+# print(person["name"])
+# print(person["gender"])
 
+# can add key-value's as needed
+# zombie = {}
+# zombie ["weapon"] = "axe"
+# zombie ["health"] = 100
+# zombie ['startX'] = 10
+# zombie ['startY'] = 20
+# zombie ['speed'] = 10
 
+# print zombie
 
+# for key,value in zombie.items():
+# 	print "Zombie has a key of %s with a value of %s" % (key,value)
+# 	print (zombie[key])
 
+# if (zombie["speed"] < 5):
+# 	zombie["position"] = zombie[startX] + 5
+# elif (zombie["speed"] < 10):
+# 	  zombie["position"] = zombie[startX] + 10
+# else:
+# 	zombie["position"]
 
+# n to m
 
+# start = raw_input("Where should we start? ")
+# end = raw_input("Where do we end? ")
 
+# for parameters in this 
+	
 
 
 
